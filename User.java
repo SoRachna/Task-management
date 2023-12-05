@@ -1,37 +1,33 @@
-package TaskManagement2;
-import java.util.ArrayList;
+package TaskManagement8.User;
 
-public class User {
-    private ArrayList<User> users;
-    private String taskid;
+public abstract class User {
     private String username;
     private String password;
 
-    public User() {
-        this.users = new ArrayList<>();
+    // Constructor
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
+    // Abstract method for login
+    public abstract void login();
+
+    // Getter methods
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    // Setter methods
     public void setUsername(String username) {
         this.username = username;
     }
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getUsername() {
-        return this.username;
-    }
-
-    public String getPassword() {
-        return this.password;
-    }
-
-    public void setTaskid(String taskid) {
-        this.taskid = taskid;
-    }
-
-    public String getTaskid() {
-        return this.taskid;
     }
 }
