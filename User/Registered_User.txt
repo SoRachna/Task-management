@@ -1,0 +1,7 @@
+admin / admin123
+guest / guest123
+munin / munin123
+rachna / rachna123
+vattey / vattey838247
+user1 / password1
+user2 / password2
