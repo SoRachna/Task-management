@@ -33,16 +33,21 @@
       Java class that contains the main () method to compile and execute the program. In this main file, the program will ask for user 
       input on three main options based on  their purpose to use the program as the entry point for the application. Regarding the three 
       options of login, register, and exit, functions such as .login() and .registerUser() were called for further implementation. 
-      Necessary conditions such as if-else are used to clarify either the user login as Admin or Regularuser followed by 
-      the implementation of two separated functions, .handleAdminActions( ) and .handleRegularUserActions( ) with their own command. 
 ##### 2. Classes/ Functions
 ###### a. AdminFunction.java
       The main purpose of this class is to allow Admin to create projects and tasks. It has two functions: .handleAdminActions( ) and .printAdminReport( ). 
       
         i. .handleAdminActions(): A public class that implements project and task creation for admin. 
-        ii. .printAdminReport( ): A private class that takes the initiative to generate all the existing projects and tasks after the admin ends the implementation of creating or adding it. 
+        ii. .printAdminReport( ): A private class that takes the initiative to generate all the existing projects and tasks after the admin ends the implementation of creating or adding them. 
 ###### b. RegularUserFunction.java
 			xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ###### c. Project.java and Task.java
     These classes represent the core entities of the program.
+#### --> User
+##### 1. Superclass & Subclasses
+###### a. User (Superclass)
+	An abstract superclass class that has two objects, username and password. As we expect to use the username to display on most parts within the program, we set it to a public variable, and for the password, we set it to private because we want to have limited access to it. 
+	In this application user is separated into two, admin and user. As already introduced their 
+ ###### b.Admin (Inheritance)
+ 	A subclass inheritance from the User class
 
