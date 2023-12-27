@@ -47,7 +47,18 @@
 ##### 1. Superclass & Subclasses
 ###### a. User (Superclass)
 	An abstract superclass class that has two objects, username and password. As we expect to use the username to display on most parts within the program, we set it to a public variable, and for the password, we set it to private because we want to have limited access to it. 
-	In this application user is separated into two, admin and user. As already introduced their 
+	In this application user is separated into two, admin and user.
+ ![image](https://github.com/SoRachna/Task-management/assets/151009957/914facbd-6f96-47da-854c-5ef3ffeceda7)
  ###### b.Admin (Inheritance)
- 	A subclass inheritance from the User class
+ 	A subclass inheritance from the Superclass User. 
+  ![image](https://github.com/SoRachna/Task-management/assets/151009957/741e54c7-bdbd-4827-b7ce-0400182a3066)
+ ###### c. RegularUser (Inheritance)
+ ![image](https://github.com/SoRachna/Task-management/assets/151009957/465f4f60-2c32-40f4-8ce2-735f3340a91d)
+ ##### 2. Classes/Functions
+ ###### a.Register.java
+	i. .register(): main function to register process. In the register, two options ask the user whether they want to register as a normal user or admin. Based on the chosen option, the program will next call either one of these functions .registerAsAdmin() or .registerAsUser(). After registered, their information will be stored in the txt.file. 
+ 	ii. .registerAsAdmin(): A function for the user who wants to register as admin.
+  	iii. .registerAsUser(): A function for the user that wants to register as the regular user. 
+###### b. UserManager.java
+	
 
