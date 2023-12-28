@@ -23,18 +23,17 @@
       - View deadline
       - Update task status
 ## II. Directory Structure
-      To maintain friendly access and organized code, this code structure was separated into two different folders, [Task management]https://github.com/SoRachna/Task-management/tree/d9f8bbe32b42e6e28c6d5ad0113dd8eff03d5ddd/TaskMangement
-      and User. 
+      To maintain friendly access and organized code, this code structure was separated into two different folders, Task management and User. 
       In the Task Management folder, you will find the main file such as Program.java, and other necessary files of functions stored. 
       Whereas, inside the User folder, you will find all the functions that mainly focus on taking in and storing user information as txt.file. 
       Regarding the separation, however, all the classes remain related and all are part of the Program.java  file. 
-#### -->Task management 
+#### -->Task management (https://github.com/SoRachna/Task-management/tree/d9f8bbe32b42e6e28c6d5ad0113dd8eff03d5ddd/TaskMangement)
 ##### 1. Implementation
 ###### a. Program.java
       Java class that contains the main () method to compile and execute the program. In this main file, the program will ask for user 
       input on three main options based on  their purpose to use the program as the entry point for the application. Regarding the three 
       options of login, register, and exit, functions such as .login() and .registerUser() were called for further implementation. 
-##### 2. Classes/ Functions
+##### 2. Classes
 ###### a. AdminFunction.java
       The main purpose of this class is to allow Admin to create projects and tasks. It has two functions: .handleAdminActions( ) and .printAdminReport( ). 
       
